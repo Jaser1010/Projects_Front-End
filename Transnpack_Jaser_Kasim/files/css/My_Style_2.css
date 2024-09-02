@@ -6,7 +6,7 @@
 }
 body{
     background-color: black;
-   font-family: "Montserrat" , sans-serif;
+    font-family: "Montserrat" , sans-serif;
     background-color: white;
 }
 
@@ -69,7 +69,7 @@ header #nav-link-2{
 #container #nav-link-2:hover{
     color: #1056a6;
 }
- header #nav-link-3{
+header #nav-link-3{
     padding: 0 5px;
     color: #1056a6;
     text-decoration: none;
@@ -90,7 +90,6 @@ header #nav-link-3:hover{
 #container button a {
     text-decoration: none;
     text-align: center;
-   /* padding: 5% 15%;*/
     display: flex;
     color: white;
     font-size:x-small;
@@ -155,7 +154,7 @@ header #nav-link-3:hover{
     color: white
 }
 .welcom img{
-   margin-left: 15px; 
+    margin-left: 15px; 
 }
 
 .mmm{
@@ -168,22 +167,21 @@ header #nav-link-3:hover{
     right: 0;
     padding: 0;
     height: 850px;
-  
     text-align: right;
 }
 
 .step  
 {  
- background: #1056a6;  
-border-radius: 2.1em;
-border: none;  
--moz-border-radius: 2.2em;  
--webkit-border-radius: 2.2em;  
-color: #ffffff;  
-display: inline-block;  
-font-weight: bold;  
-line-height: 3em;  
-margin-right: 15px;  
-text-align: center;  
-width: 3em;  
+    background: #1056a6;  
+    border-radius: 2.1em;
+    border: none;  
+    -moz-border-radius: 2.2em;  
+    -webkit-border-radius: 2.2em;  
+    color: #ffffff;  
+    display: inline-block;  
+    font-weight: bold;  
+    line-height: 3em;  
+    margin-right: 15px;  
+    text-align: center;  
+    width: 3em;  
 }
