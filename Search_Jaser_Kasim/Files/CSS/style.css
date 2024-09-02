@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0.75rem;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+.btn {
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+
+@media (max-width: 768px) {
+    .header .search-bar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .breed-gallery img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 576px) {
+    .breed-gallery img {
+        height: 150px;
+        object-fit: cover;
+    }
+}
