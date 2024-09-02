@@ -5,102 +5,17 @@
     font-family:"Lato";
 }
 body{
-    background-color: black;
-    font-family: "Montserrat" , sans-serif;
-    background-color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
 }
 
-a{
-    text-decoration: none;
-}
-    /*navbar*/
-header{
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-}
-header nav{
-    display:flex;
-    align-items: center;
-    background-color: white;
-}
-header ul{
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-#container li{
-    padding: 2% 1.5%;
-    display: flex;
-}
-#contact{
-    display: inline;
-}
-#container a{
-    flex-direction: row;
-    text-align: center;
-}
-#container img{
-    width: 19px;
-    height: 19px;
-    background-color:rgb(57, 109, 219);
-}
-header #container{
-    width: 100%;
-    padding: 1% 0.1% 1% 0.1%;
-    background-color: white;
-    font-size: 15px;
-    justify-content: center;
-}
-header #nav-link-1{
-    padding: 0 5px;
-    color: #69747C;
-    text-decoration: none;
-}
-#container #nav-link-1:hover{
-    color: #0a3362;
-}
-header #nav-link-2{
-    padding: 0 5px;
-    color: black;
-    text-decoration: none;
-}
-#container #nav-link-2:hover{
-    color: #1056a6;
-}
-header #nav-link-3{
-    padding: 0 5px;
-    color: #1056a6;
-    text-decoration: none;
-}
-header #nav-link-3:hover{
-    color: #0a3362;
-    text-decoration:underline;
-}
-#container button{
-    background-color: #1056a6;
-    border-radius: 6px;
-    border: none;
-    display: flex;
-    color: #ffffff;
-    width: 12%;
-    text-align: center;
-}
-#container button a {
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    color: white;
-    font-size:x-small;
-}
-#container button:hover{
-    background-color: #2b5f99;
-}
-#container button a:hover{
-    color: white;
-}
-/*#############the welcoming part###########*/
+
+
+/*############# the welcoming part ###########*/
 .welcom{
     margin: 8.51% 0 0 0;
     height: 750px;
@@ -111,67 +26,38 @@ header #nav-link-3:hover{
     margin-top: 10%;
     display: flex;
 }
-.welcom h1{
+#welcom-1 h1{
     color: #000000;
     font-size: 50px;
     margin-top: 150px;
     font-weight: 90%;
     
 }
-.welcom p{
-    color: #808fa3;
+#welcom-1 p{
+    color: #808fa3 !important;
     font-size: 16px;
-    
+    font-weight: normal;
 }
-.welcom img{
-    width: 650px;
-    height: auto;
+#welcom-1 img{
+    width: 550px;
+    height: auto; 
 }
-.welcom button{
-    background-color: #1056a6;
-    border-radius: 6px;
-    border: none; 
-    display: flex;
-    width: 14%;
-    height:auto;
-    margin: 5% 0 0 0 ;
-    align-content: center;
-    
-}
-.welcom button a{
+
+/*############# how-it-works ###########*/
+#how-it-works h2{
+    color: #1056a6;
     text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 9% 10%;
-    display: flex;
-    font-size:xx-small ;
+    font-weight: 900;
+    text-transform: uppercase;
 }
-.welcom button:hover{
-    background-color: #2b5f99;
-    
+#how-it-works h6{
+    font-weight: 700 !important;
 }
-.welcom button a:hover{
-    color: white
-}
-.welcom img{
-    margin-left: 15px; 
-}
+#how-it-works p{
+    font-size: 16px;
 
-.mmm{
-    display: inline-block;
-    text-align: center;
 }
-/*3333333333333333333333333333333333333333333333333*/
-
-#pricing .tool-img{
-    right: 0;
-    padding: 0;
-    height: 850px;
-    text-align: right;
-}
-
-.step  
-{  
+.step  {  
     background: #1056a6;  
     border-radius: 2.1em;
     border: none;  
@@ -184,4 +70,137 @@ header #nav-link-3:hover{
     margin-right: 15px;  
     text-align: center;  
     width: 3em;  
+}
+/*############# pricing ###########*/
+#pricing{
+    height: 850px;
+    position: relative;
+    bottom: 0px;
+    z-index: 2;
+    padding-top: 5px;
+    background: #f2fafb url(../files/photoes/tayloor-packages.png) center left no-repeat;
+    background-size: contain;
+}
+#pricing .tool-img{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    height: 850px;
+    text-align: right;
+}
+#pricing .tool-img img{
+    height: 100%;
+}
+#pricing .container {
+    margin-top: 280px;
+}
+#pricing h2 {
+    color: #1056a6;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#pricing .container p {
+    font-size: 17px;
+    color: #808fa3 !important;
+}
+#pricing .buy-btn {
+    width: 150px;
+}
+
+/*############# platform ###########*/
+.lang-bg {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 750px;
+}
+#platform {
+    padding-top: 200px;
+}
+#platform h2 {
+    color: #1056a6;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#platform p {
+    font-size: 16px;
+    color: #808fa3 !important;
+    font-weight: normal;
+}
+#platform img {
+    width: 100%;
+    position: relative;
+}
+
+/*############# languages ###########*/
+#languages {
+    padding-top: 28%;
+    position: relative;
+}
+.text-left {
+    text-align: left !important;
+}
+#languages h2 {
+    color: #1056a6;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#languages p {
+    font-size: 16px;
+    color: #808fa3 !important;
+    font-weight: normal;
+}
+#languages table td {
+    padding: 5px 0;
+    color: #afb3b5;
+}
+#languages table img {
+    width: 30px;
+    display: inline-block;
+}
+
+/*############# map ###########*/
+#map {
+    padding-top: 20%;
+    position: relative;
+}
+#map h2 {
+    color: #1056a6;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#map p {
+    font-size: 16px;
+    color: #808fa3 !important;
+    font-weight: normal;
+}
+#map img {
+    width: 100%;
+    position: relative;
+}
+
+/*############# contact ###########*/
+#contact {
+    padding-bottom: 50px;
+}
+#contact h2 {
+    color: #1056a6;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#contact p {
+    font-size: 16px;
+    color: #808fa3 !important;
+    font-weight: normal;
+}
+#contact .form-group {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+#contact form input, #contact form textarea {
+    background-color: #d3dfe26e;
 }
