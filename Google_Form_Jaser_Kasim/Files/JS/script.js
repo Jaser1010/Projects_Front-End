@@ -14,10 +14,26 @@ document.addEventListener('DOMContentLoaded', function() {
         submitButton.classList.toggle('hidden', stepIndex !== steps.length - 1);
     }
 
+    function validateStep() {
+        var currentInputs = steps[currentStep].querySelectorAll('input');
+        var valid = true;
+
+        currentInputs.forEach(function(input) {
+            if (!input.checkValidity()) {
+                input.reportValidity();
+                valid = false;
+            }
+        });
+
+        return valid;
+    }
+
     nextButton.addEventListener('click', function() {
-        if (currentStep < steps.length - 1) {
-            currentStep++;
-            showStep(currentStep);
+        if (validateStep()) {
+            if (currentStep < steps.length - 1) {
+                currentStep++;
+                showStep(currentStep);
+            }
         }
     });
 
@@ -25,6 +41,12 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentStep > 0) {
             currentStep--;
             showStep(currentStep);
+        }
+    });
+
+    submitButton.addEventListener('click', function(event) {
+        if (!validateStep()) {
+            event.preventDefault();
         }
     });
 
