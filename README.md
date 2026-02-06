@@ -1,56 +1,16 @@
 # Projects_Front-End
 
-## Description
-A collection of front-end development projects and exercises.
+A collection of front‑end mini projects built with **HTML**, **CSS**, and **JavaScript**. Each folder in this repository contains a standalone project that you can run by simply opening its `index.html` file in a web browser.
 
-## Topic
-Front-End Development
+## Projects
 
-## Technologies
-- **Primary Language**: HTML
-- **Framework**: ASP.NET / .NET (if applicable)
+- **Array_Jaser_Kasim** – Demonstrates basic array operations using JavaScript.
+- **Cacluater_Jaser_Kasim** – A simple calculator app.
+- **Google_Form_Jaser_Kasim** – A clone of the Google Forms interface.
+- **Login_Signup_Jaser_Kasim** – Responsive login and sign‑up form pages.
+- **Outlook_Jaser_Kasim** – A static front‑end inspired by Microsoft Outlook.
+- **Portfolio_Jaser_Kasim** – A personal portfolio website template.
+- **Search_Jaser_Kasim** – A simple search bar component.
+- **Transnpack_Jaser_Kasim** – A concept front‑end for a transport packaging service.
 
-## Getting Started
-
-### Prerequisites
-- Visual Studio 2019 or later / VS Code
-- .NET SDK (appropriate version)
-- Any additional dependencies listed in the project file
-
-### Installation
-1. Clone the repository:
-   ``bash
-   git clone https://github.com/Jaser1010/Projects_Front-End.git
-   ``n
-2. Navigate to the project directory:
-   ``bash
-   cd Projects_Front-End
-   ``n
-3. Restore dependencies:
-   ``bash
-   dotnet restore
-   ``n
-### Running the Project
-``bash
-dotnet run
-``n
-Or open the solution/project file in Visual Studio and press F5.
-
-## Project Structure
-See the source code files for implementation details.
-
-## Learning Objectives
-This project was created as part of a programming course to practice and demonstrate:
-- Core programming concepts
-- Best practices and design patterns
-- Problem-solving skills
-
-## License
-This is a learning project.
-
-## Author
-- **Jaser1010**
-- GitHub: [@Jaser1010](https://github.com/Jaser1010)
-
----
-*This README was automatically generated. Please update with specific project details as needed.*
+Feel free to explore each folder to see the HTML, CSS, and JavaScript source files.
